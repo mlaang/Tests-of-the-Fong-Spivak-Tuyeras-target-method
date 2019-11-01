@@ -4,7 +4,7 @@
 #
 # This method involves constructing elementwise error functions e(x,y) comparing
 # the output of a layer, x, with the target for the layer y and the elementwise
-# application of the inverse of the second derivative of these functions to the 
+# application of the inverse of the derivative of these functions to the 
 # gradient with respect to what one wants to use as a target.
 #
 # With the squared Hellinger distance we have e(x,y)=(sqrt(x)-sqrt(y))^2 so that
